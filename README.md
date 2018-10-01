@@ -7,3 +7,4 @@
 - [5.virtual memory first part](./5-virtualMemory1.md)
 - [6.virtual memory second part](./6-virtualMemory2.md)
 - [7.virtual memory third part](./7-virtualMemory3.md)
+- [8.virtual memory forth part](./8-virtualMemory4.md)
