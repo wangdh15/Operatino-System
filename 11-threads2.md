@@ -86,3 +86,9 @@ ead of having a single lock for the entire structure, it uses a lock per hash bu
 #### 2.3 Summary
 
 ![](./images/191.png)
+
+`wait()`函数原子地执行以下两个操作：给互斥锁`mutex`解锁，然后把调用线程投入休眠，知道另外某给线程就本条件变量调用`signal`函数。
+
+`wait()`函数返回(signal函数导致或者是TMIEOUT)执行两个操作：重新给互斥锁muex上锁；总是再次测试相应条件是否成立(可能发生虚假的唤醒)。
+
+条件变量总是和一个互斥锁与之关联，因为决定等待和信号发送的变量必须用互斥锁保护起来。
