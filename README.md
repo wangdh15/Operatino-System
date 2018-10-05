@@ -11,3 +11,4 @@
 - [9.virtual memory fifth part](./9-virtualMemory5.md)
 - [10.threads first part](./10-threads1.md)
 - [11.threads second part](./11-threads2.md)
+- [12.threads third part](./12-thread3.md)
